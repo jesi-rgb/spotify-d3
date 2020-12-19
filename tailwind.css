@@ -12,6 +12,15 @@ html {
 text {
   font-family: Montserrat;
   font-weight: 500;
+  fill: white;
+}
+
+rect{
+  fill: turquoise;
+}
+
+path, line {
+  stroke: white;
 }
 
 /* For Letter size */

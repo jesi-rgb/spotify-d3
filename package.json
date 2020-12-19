@@ -24,6 +24,7 @@
     "cssnano": "^4.1.10",
     "d3": "^4.13.0",
     "live-server": "^1.2.1",
+    "lodash": "^4.17.20",
     "postcss-cli": "^7.0.0",
     "postcss-import": "^12.0.1",
     "tailwindcss": "^1.2.0"

@@ -8,27 +8,31 @@
   <meta name="author" content="Jesús Enrique">
   <!-- <meta name="robots" content="noindex"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://d3js.org/d3.v4.js"></script>
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="https://d3js.org/d3-array.v2.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js"></script>
   <link href="./build.css" rel="stylesheet">
-  <title>Template</title>
+  <title>Abdalla's Listening Habits</title>
 </head>
 
-<body>
+<body class="bg-gray-900">
   <main class=hyphens-manual">
 
     <!-- Page -->
-    <div class="p-6 mx-auto page max-w-2xl md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 bg-white">
+    <div class="p-6 mx-auto page max-w-2xl md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 bg-gray-900">
 
       <!-- Name -->
       <header class="flex items-center mb-8 md:mb-11">
-        <h1 class="text-2xl text-gray-750 pb-px">
-          Template
+        <h1 class="text-2xl text-white pb-px">
+          Abdalla's Listening Habits
         </h1>
       </header>
       <!-- end Name -->
 
-      <div id="graph"></div>
+      <div id="top10"></div>
+      <div id="hours"></div>
 
     </div>
     <!-- end Page -->
