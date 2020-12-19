@@ -1,0 +1,60 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;0,800;1,100;1,200;1,300;1,500&display=swap');
+
+html {
+  font-size: 13.176471px;
+  font-family: Montserrat;
+}
+
+text {
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+/* For Letter size */
+
+@screen sm {
+  html {
+    font-size: calc( 13.176471px + (16 - 13.176471) * (100vw - 640px) / (833 - 640) );
+  }
+}
+
+@screen md {
+  html {
+    font-size: calc( 12.288px + (16 - 12.288) * (100vw - 833px) / (1079.5 - 833) );
+  }
+}
+
+/* For A4 size */
+
+/* @screen sm {
+  html {
+    font-size: calc( 13.176471px + (16 - 13.176471) * (100vw - 640px) / (811 - 640) );
+  }
+}
+
+@screen md {
+  html {
+    font-size: calc( 12.288px + (16 - 12.288) * (100vw - 811px) / (1051 - 811) );
+  }
+} */
+
+@screen lg {
+  html {
+    font-size: 16px;
+  }
+}
+
+.initials-container {
+  min-width: 2.31rem;
+}
+
+body .icon-parent::before {
+  content: "A";
+  width: 0px;
+  visibility: hidden;
+  display: inline-block;
+}

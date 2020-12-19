@@ -1,0 +1,7 @@
+# Ignore these so they're not stored in source control
+.DS_Store
+.vscode
+/node_modules/
+package-lock.json
+/docs/build.css
+/tmp/
