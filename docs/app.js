@@ -132,8 +132,8 @@ function yearDensity(data){
       var i = bisect(gr_days_arr, x0, 1);
       selectedData = gr_days_arr[i];
 
-      focusText
-        .html("Count: " + selectedData.count)
+      if(selectedData != null)
+        focusText.html("Count: " + selectedData.count)
     }
     function mouseout() {
       // focus.style("opacity", 0)
@@ -205,8 +205,6 @@ function listeningDensityPerDay(data){
               .append("span")
               .style("opacity", 0)
               .attr("class", "tooltip")
-              // .style("background-color", "black")
-              // .style("color", "white")
               .style("border-radius", "5px")
               .style("padding", "10px")
 
