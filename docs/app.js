@@ -1,4 +1,4 @@
-// set the dimensions and margins of the graph
+// set the dimensions and margins of the graph jaja
 var margin = {top: 30, right: 30, bottom: 110, left: 60}
     // width = 460 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
